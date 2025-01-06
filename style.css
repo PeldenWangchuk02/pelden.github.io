@@ -136,3 +136,186 @@ h2 {
     font-size: 18px;
     color: #6A6A6A;
 }
+
+
+
+
+
+/* Responsive Design with Enhanced Media Queries */
+@media (max-width: 1200px) {
+    .container {
+      margin: 30px;
+      height: auto;
+      width: 100%;
+      flex-direction: column; /* Stack items vertically */
+      padding: 20px;
+      border-radius: 25px;
+    }
+  
+    .container-right .details h1 {
+      font-size: 28px; /* Smaller font size for smaller screens */
+      text-align: center; /* Center-align text for better readability */
+    }
+  
+    .container-right .details p {
+      font-size: 20px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .container-right .information li {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  
+    .container-right .information li img {
+      height: 18px;
+      margin-right: 10px;
+    }
+  
+    .about {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .about .about-right p {
+      font-size: 80px;
+      margin-top: 50px;
+      text-align: center;
+    }
+  
+    .about .about-right img {
+      margin-top: -100px;
+      width: 90%;
+      align-self: center;
+    }
+  
+    h2 {
+      font-size: 80px;
+      margin-bottom: 300px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px;
+      padding: 15px;
+      height: auto;
+      width: 100%;
+      flex-direction: column;
+      align-items: center; /* Center-align items */
+      border-radius: 20px;
+    }
+  
+    .container-right .details h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .container-right .details p {
+      font-size: 18px;
+      text-align: center;
+      margin-top: 5px;
+    }
+  
+    .container-right .information li {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  
+    .about .about-right p {
+      font-size: 60px;
+      margin-top: 40px;
+      text-align: center;
+    }
+  
+    .about .about-right img {
+      margin-top: -80px;
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: 60px;
+      margin-bottom: 200px;
+      text-align: center;
+    }
+  
+    .collapsible-btn {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+  
+    .collapsible-content {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      margin: 10px;
+      padding: 10px;
+      height: auto;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 15px;
+    }
+  
+    .container-right .details h1 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .container-right .details p {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 5px;
+    }
+  
+    .container-right .information li {
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  
+    .container-right .information li img {
+      height: 15px;
+      margin-right: 5px;
+    }
+  
+    .about {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  
+    .about .about-right p {
+      font-size: 50px;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .about .about-right img {
+      margin-top: -50px;
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 50px;
+      margin-bottom: 150px;
+      text-align: center;
+    }
+  
+    .collapsible-btn {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .collapsible-content {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }
+  
